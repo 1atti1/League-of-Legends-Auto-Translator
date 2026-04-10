@@ -4,17 +4,16 @@ Traduz automaticamente textos do League of Legends para **Português BR** usando
 
 ---
 
-## 📋 O que ele traduz?
+##  O que ele traduz?
 
 - Descrições de **itens**
 - Descrições de **habilidades** (Q/W/E/R/Passiva)
 - Textos de **runas** e **feitiços**
-- **Tooltips** em geral
 - **Qualquer texto** visível na tela
 
 ---
 
-## 🚀 Instalação
+## Instalação
 
 ### Pré-requisitos
 
@@ -23,9 +22,9 @@ Traduz automaticamente textos do League of Legends para **Português BR** usando
 | Python 3.10+ | https://www.python.org/downloads/ |
 | Tesseract OCR | https://github.com/UB-Mannheim/tesseract/wiki |
 
-> ⚠️ **Importante:** Ao instalar Python e Tesseract, marque **"Add to PATH"**!
+> ⚠️ Ao instalar Python e Tesseract, marque **"Add to PATH"**!
 
-### Passos
+ Passos
 
 1. Extraia os arquivos em uma pasta
 2. Dê duplo clique em **`instalar.bat`**
@@ -34,7 +33,7 @@ Traduz automaticamente textos do League of Legends para **Português BR** usando
 
 ---
 
-## 🔑 Configuração da API Key
+##  Configuração da API Key
 
 O programa usa a API do Claude (Anthropic) para traduzir com precisão.
 
@@ -71,7 +70,7 @@ A key fica salva no arquivo `.env` — você não precisa digitar toda vez.
 
 ---
 
-## ❓ Problemas comuns
+#  Problemas comuns
 
 **"Tesseract não encontrado"**
 → Instale o Tesseract e reinicie o computador (ou abra novo terminal)
@@ -84,10 +83,8 @@ A key fica salva no arquivo `.env` — você não precisa digitar toda vez.
 
 **O jogo fica em fullscreen exclusivo e não captura**
 → Configure o LoL para **"Janela sem bordas"** (Borderless) nas configurações de vídeo
-
 ---
-
-## 📝 Notas
+# Notas
 
 - O programa **não interfere** no jogo — apenas lê a tela
 - Não há risco de **ban** (funciona como um screenshot externo)
